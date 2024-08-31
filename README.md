@@ -62,10 +62,4 @@ Para configurar y ejecutar este proyecto en tu entorno de desarrollo:
 
 Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
-## 🤝 Contribuir
 
-Si deseas contribuir a este proyecto, te invitamos a realizar un pull request o enviar un correo a [business@noeosorio.com](mailto:business@noeosorio.com).
-
----
-
-Desarrollado por [Noe Osorio](https://noeosorio.com)
