@@ -2,13 +2,13 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/fireba
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-analytics.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDAhEeMS7jNDhA8OfPzAOnLdTKns_TcEJk",
-    authDomain: "crm-noe-osorio.firebaseapp.com",
-    projectId: "crm-noe-osorio",
-    storageBucket: "crm-noe-osorio.appspot.com",
-    messagingSenderId: "1069700412951",
-    appId: "1:1069700412951:web:8c68b51aa128a4af7e4e52",
-    measurementId: "G-1SYYE3TLS4"
+    apiKey: process.env.apiKey,
+    authDomain: process.env.authDomain,
+    projectId: process.env.projectId,
+    storageBucket: process.env.storageBucket,
+    messagingSenderId: process.env.messagingSenderId,
+    appId: process.env.appId,
+    measurementId: process.env.measurementId
   };
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
